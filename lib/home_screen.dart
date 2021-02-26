@@ -13,7 +13,7 @@ class _HomeScreenViewState extends State<HomeScreenView> {
   Widget build(BuildContext context) {
     return SplashScreen(
       seconds: 3,
-      navigateAfterSeconds: AnlamBakimindan(),
+      navigateAfterSeconds: MenuView(),
       title: Text(
         'Yükleniyor...',
         style: TextStyle(
