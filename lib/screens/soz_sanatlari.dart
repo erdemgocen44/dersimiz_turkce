@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(AnlamBakimindan());
+void main() => runApp(SozSanatlari());
 
-class AnlamBakimindan extends StatelessWidget {
+class SozSanatlari extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

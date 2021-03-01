@@ -40,7 +40,7 @@ class _TurkishLessonViewState extends State<TurkishLessonView> {
           return ListTile(
             title: Text(lesson.lessonSubjects[index]),
             onTap: () {
-              _navigateDetailPage(index);
+              // _navigateDetailPage(index);
             },
           );
         },
@@ -50,10 +50,11 @@ class _TurkishLessonViewState extends State<TurkishLessonView> {
 
   //MARK: File Private  yaparak methodu baske yerlerden erismeyi kapatiyoruz
   // MARK: index degeri dokunlan itemin indexi
-  void _navigateDetailPage(int index) {
-    Navigator.of(context).push(MaterialPageRoute(
-      builder: (context) =>
-          LessonDetail(lessonName: lesson.lessonSubjects[index]),
-    ));
-  }
+//   void _navigateDetailPage(int index) {
+//     Navigator.of(context).push(
+//       MaterialPageRoute(
+//         builder: (context) =>
+//             LessonDetail(lessonName: routes.routeTables[index]),
+//       ),
+//     );
 }
