@@ -1,5 +1,5 @@
 # dersimiz_turkce
-Tğrkçe dersi ile ilgili mobile app
+Türkçe dersi ile ilgili mobile app
 
 ## Getting Started
 
