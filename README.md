@@ -1,6 +1,5 @@
 # dersimiz_turkce
-
-A new Flutter project.
+Tğrkçe dersi ile ilgili mobile app
 
 ## Getting Started
 
